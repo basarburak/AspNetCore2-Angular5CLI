@@ -1,0 +1,4 @@
+C:\Users\HKD44\Documents\GitHub\AspNetCore2-Angular5CLI\NetCoreAngular.Client\obj\Debug\netcoreapp2.0\NetCoreAngular.Client.csprojResolveAssemblyReference.cache
+C:\Users\HKD44\Documents\GitHub\AspNetCore2-Angular5CLI\NetCoreAngular.Client\obj\Debug\netcoreapp2.0\NetCoreAngular.Client.csproj.CoreCompileInputs.cache
+C:\Users\HKD44\Documents\GitHub\AspNetCore2-Angular5CLI\NetCoreAngular.Client\obj\Debug\netcoreapp2.0\NetCoreAngular.Client.AssemblyInfoInputs.cache
+C:\Users\HKD44\Documents\GitHub\AspNetCore2-Angular5CLI\NetCoreAngular.Client\obj\Debug\netcoreapp2.0\NetCoreAngular.Client.AssemblyInfo.cs
