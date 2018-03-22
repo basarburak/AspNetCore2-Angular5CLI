@@ -1,0 +1,15 @@
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/obj/Debug/netcoreapp2.0/Backend.Api.csprojResolveAssemblyReference.cache
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/obj/Debug/netcoreapp2.0/Backend.Api.csproj.CoreCompileInputs.cache
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/obj/Debug/netcoreapp2.0/Backend.Api.AssemblyInfoInputs.cache
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/obj/Debug/netcoreapp2.0/Backend.Api.AssemblyInfo.cs
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/bin/Debug/netcoreapp2.0/Backend.Api.deps.json
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/bin/Debug/netcoreapp2.0/Backend.Api.runtimeconfig.json
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/bin/Debug/netcoreapp2.0/Backend.Api.runtimeconfig.dev.json
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/bin/Debug/netcoreapp2.0/Backend.Api.dll
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/bin/Debug/netcoreapp2.0/Backend.Api.pdb
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/bin/Debug/netcoreapp2.0/Backend.Api.Contracts.dll
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/bin/Debug/netcoreapp2.0/Backend.Domain.dll
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/bin/Debug/netcoreapp2.0/Backend.Api.Contracts.pdb
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/bin/Debug/netcoreapp2.0/Backend.Domain.pdb
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/obj/Debug/netcoreapp2.0/Backend.Api.dll
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api/obj/Debug/netcoreapp2.0/Backend.Api.pdb

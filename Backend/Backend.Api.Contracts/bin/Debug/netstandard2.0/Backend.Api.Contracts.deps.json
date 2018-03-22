@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "7021bf31a266cbf831b51a34b7cbb81327d20c5a"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Backend.Api.Contracts/1.0.0": {
+        "dependencies": {
+          "Backend.Domain": "1.0.0",
+          "NETStandard.Library": "2.0.1",
+          "NetCoreStack.Contracts": "2.0.7"
+        },
+        "runtime": {
+          "Backend.Api.Contracts.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NetCoreStack.Contracts/2.0.7": {
+        "runtime": {
+          "lib/netstandard2.0/NetCoreStack.Contracts.dll": {}
+        }
+      },
+      "NETStandard.Library/2.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Backend.Domain/1.0.0": {
+        "runtime": {
+          "Backend.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Backend.Api.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fbHvoeiJg3hjq7N/+8USq22AoZAPvHjqzQlwQOXGEFZL8+4BN1LIBftHzR8dnV2r0JVyDsFL2vqGBSg3AHYY1g==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NetCoreStack.Contracts/2.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-COGfFFBIKgZTHnVEtGyOPrAZSJdNfesi8ib1FYGn7P0Xslk4sFSa6sE/XIp6bJuEEH5tXi6tzJ8YMByc8ujVMA==",
+      "path": "netcorestack.contracts/2.0.7",
+      "hashPath": "netcorestack.contracts.2.0.7.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "Backend.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

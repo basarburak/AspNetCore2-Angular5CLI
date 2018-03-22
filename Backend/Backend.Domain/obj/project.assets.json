@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "fbHvoeiJg3hjq7N/+8USq22AoZAPvHjqzQlwQOXGEFZL8+4BN1LIBftHzR8dnV2r0JVyDsFL2vqGBSg3AHYY1g==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -177,30 +177,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bba\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/burakbasar/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Domain\\Backend.Domain.csproj",
+      "projectUniqueName": "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/Backend.Domain.csproj",
       "projectName": "Backend.Domain",
-      "projectPath": "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Domain\\Backend.Domain.csproj",
-      "packagesPath": "C:\\Users\\bba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Domain\\obj\\",
+      "projectPath": "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/Backend.Domain.csproj",
+      "packagesPath": "/Users/burakbasar/.nuget/packages/",
+      "outputPath": "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\bba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/burakbasar/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

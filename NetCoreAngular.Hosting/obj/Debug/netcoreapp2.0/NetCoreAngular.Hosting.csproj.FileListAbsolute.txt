@@ -1,0 +1,14 @@
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/obj/Debug/netcoreapp2.0/NetCoreAngular.Hosting.csproj.CoreCompileInputs.cache
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/obj/Debug/netcoreapp2.0/NetCoreAngular.Hosting.AssemblyInfoInputs.cache
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/obj/Debug/netcoreapp2.0/NetCoreAngular.Hosting.AssemblyInfo.cs
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/bin/Debug/netcoreapp2.0/NetCoreAngular.Hosting.deps.json
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/bin/Debug/netcoreapp2.0/NetCoreAngular.Hosting.runtimeconfig.json
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/bin/Debug/netcoreapp2.0/NetCoreAngular.Hosting.runtimeconfig.dev.json
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/bin/Debug/netcoreapp2.0/NetCoreAngular.Hosting.dll
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/bin/Debug/netcoreapp2.0/NetCoreAngular.Hosting.pdb
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/obj/Debug/netcoreapp2.0/NetCoreAngular.Hosting.dll
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/obj/Debug/netcoreapp2.0/NetCoreAngular.Hosting.pdb
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/bin/Debug/netcoreapp2.0/Backend.Api.Contracts.dll
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/bin/Debug/netcoreapp2.0/Backend.Domain.dll
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/bin/Debug/netcoreapp2.0/Backend.Api.Contracts.pdb
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/NetCoreAngular.Hosting/bin/Debug/netcoreapp2.0/Backend.Domain.pdb

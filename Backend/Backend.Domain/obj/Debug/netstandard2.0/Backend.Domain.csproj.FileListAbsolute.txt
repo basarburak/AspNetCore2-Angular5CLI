@@ -1,0 +1,8 @@
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/bin/Debug/netstandard2.0/Backend.Domain.deps.json
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/bin/Debug/netstandard2.0/Backend.Domain.dll
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/bin/Debug/netstandard2.0/Backend.Domain.pdb
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/obj/Debug/netstandard2.0/Backend.Domain.csproj.CoreCompileInputs.cache
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/obj/Debug/netstandard2.0/Backend.Domain.AssemblyInfoInputs.cache
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/obj/Debug/netstandard2.0/Backend.Domain.AssemblyInfo.cs
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/obj/Debug/netstandard2.0/Backend.Domain.dll
+/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/obj/Debug/netstandard2.0/Backend.Domain.pdb
