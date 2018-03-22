@@ -1,27 +1,23 @@
-# NetCoreAngular.Client
+# AspNetCore2-Angular5CLI
+Asp .Net Core 2.0 ile Angular 5 CLI uygulaması geliştirmek.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+Api uygulamasını çalıştırmak için <b> dotnet watch run </b> komutunu girin.
 
-## Development server
+Angular Client uygulamasını çalıştırmak için <b> ng serve </b> komutunu girin.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<b> ng serve </b> komutu angular cli uygulamanzıdaki yaptığınız değişlikleri anında izlemenize olanak tanır. <br>
 
-## Code scaffolding
+Client katmanında bulunan Proxy.config dosyası içersinde api uygulamanızın adresini girdiğinizden emin olun.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Uygulama development ortamında geliştirme yapıldığında api ve client tarafını ayrı ayağa kaldırmanız gerekecek.
 
-## Build
+Proxy config dosyasındaki api adresi doğru olmalı aksi takdirde apiye erişemeyeceksiniz.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Uygulamanın Yayımlanması
+<br><br>
 
-## Running unit tests
+Ugulamanın yayınlanma aşamasında ng-build prod komutunu çalıştırın
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Bu komutu çalıştırdığınızda Api katmanının altında wwwroot dizinine angular Cli uygulamanızın bundle config dosyaları bırakılacaktır.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Bundan sonraki adımda sadece .Net core projenizi sunucunuza pubish edebilirsiniz.
