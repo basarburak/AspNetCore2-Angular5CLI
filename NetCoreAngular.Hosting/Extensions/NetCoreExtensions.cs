@@ -1,12 +1,16 @@
 using System;
 using System.IO;
+using Backend.Api.Contracts.Abstract;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using NetCoreStack.Proxy;
 
 namespace NetCoreAngular.Hosting.Extensions
 {
     public static class NetCoreExtensions
     {
+        private static string startChromeCmd = "start chrome http://localhost:";
         public static void UseAngular(this IApplicationBuilder app)
         {
             app.Use(async (context, next) =>
@@ -24,19 +28,51 @@ namespace NetCoreAngular.Hosting.Extensions
 
         public static void UseMultiplateApplication(this IApplicationBuilder app, IConfiguration configuration)
         {
-            string angularApp = @"cd ..\NetCoreAngular.Client && npm start";
-            string mainApi = @"cd ..\Backend\Backend.Api && dotnet run";
-            app.Shell(mainApi);
-            app.Shell(angularApp);
-            //Browserda önizlemek için bunu kullanıcaz.
-            StartBrowser(app);
+            //Api ve Angular CLI uygulamalarını ayağa kaldırmak için.
+            RunApplication(app, @"..\Backend\Backend.Api", CommandLine.DotnetRun);
+            RunApplication(app, @"..\NetCoreAngular.Client", CommandLine.NpmStart);
+
+            //Browserda önizlemek için kullanacağız.
+            StartBrowser(app, new string[]{
+                "5000/",
+                "5050/",
+                "4200/"
+            });
         }
 
-        private static void StartBrowser(IApplicationBuilder app)
+        public static void AddNetCoreStackProxy(this IServiceCollection services, IConfiguration configuration)
         {
-            app.Shell("start chrome http://localhost:5000/");
-            app.Shell("start chrome http://localhost:5050/");
-            app.Shell("start chrome http://localhost:4200/");
+            services.AddNetCoreProxy(configuration, options =>
+             {
+                 options.Register<IProductApi>();
+             });
+        }
+
+        private static void StartBrowser(IApplicationBuilder app, string[] port)
+        {
+            foreach (var item in port)
+            {
+                app.Shell(startChromeCmd + item);
+            }
+        }
+        private enum CommandLine
+        {
+            DotnetRun = 1,
+            NpmStart = 2
+        }
+
+        private static void RunApplication(IApplicationBuilder app, string path, CommandLine commandLine)
+        {
+            string pathFull = "cd " + path + " && ";
+
+            if (commandLine == CommandLine.DotnetRun)
+            {
+                app.Shell(pathFull + "dotnet run");
+            }
+            else
+            {
+                app.Shell(pathFull + "npm start");
+            }
         }
     }
 }

@@ -28,14 +28,7 @@ namespace NetCoreAngular.Hosting
         {
             services.AddMvc();
 
-            services.AddNetCoreProxy(Configuration, options =>
-               {
-                   options.Register<IProductApi>();
-                   options.CultureFactory = () =>
-                        {
-                            return System.Threading.Thread.CurrentThread.CurrentCulture;
-                        };
-               });
+            services.AddNetCoreStackProxy(Configuration);
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
