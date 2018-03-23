@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Runtime.InteropServices;
 using Backend.Api.Contracts.Abstract;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
@@ -10,7 +11,8 @@ namespace NetCoreAngular.Hosting.Extensions
 {
     public static class NetCoreExtensions
     {
-        private static string startChromeCmd = "start chrome http://localhost:";
+        private static string startChromeWindows = "start chrome http://localhost:";
+        private static string startChromeMac = @"/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app=";
         public static void UseAngular(this IApplicationBuilder app)
         {
             app.Use(async (context, next) =>
@@ -50,9 +52,19 @@ namespace NetCoreAngular.Hosting.Extensions
 
         private static void StartBrowser(IApplicationBuilder app, string[] port)
         {
-            foreach (var item in port)
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             {
-                app.Shell(startChromeCmd + item);
+                foreach (var item in port)
+                {
+                    app.Shell(startChromeWindows + item);
+                }
+            }
+            else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
+            {
+                foreach (var item in port)
+                {
+                    app.Shell(startChromeMac + "'" + item + "'");
+                }
             }
         }
         private enum CommandLine
