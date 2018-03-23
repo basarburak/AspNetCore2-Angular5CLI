@@ -22,7 +22,7 @@ namespace NetCoreAngular.Hosting.Extensions
 
         public static void UseMultiplateApplication(this IApplicationBuilder app)
         {
-            string angularApp = @"cd ..\NetCoreAngular.Client && ng serve";
+            string angularApp = @"cd ..\NetCoreAngular.Client && npm start";
             string mainApi = @"cd ..\Backend\Backend.Api && dotnet run";
             app.Shell(mainApi);
             app.Shell(angularApp);

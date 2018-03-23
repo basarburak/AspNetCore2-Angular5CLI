@@ -10,7 +10,7 @@ export class ProductService {
   constructor(public api: ApiService) { }
 
   getProduct(): Observable<any> {
-    return this.api.get('/api/Product');
+    return this.api.get('Product');
   }
 
 }
