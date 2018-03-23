@@ -29,14 +29,13 @@ namespace NetCoreAngular.Hosting
             services.AddMvc();
 
             services.AddNetCoreProxy(Configuration, options =>
-        {
-            //MAin Api
-            options.Register<IProductApi>();
-            options.CultureFactory = () =>
-      {
-          return System.Threading.Thread.CurrentThread.CurrentCulture;
-      };
-        });
+               {
+                   options.Register<IProductApi>();
+                   options.CultureFactory = () =>
+                        {
+                            return System.Threading.Thread.CurrentThread.CurrentCulture;
+                        };
+               });
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -45,23 +44,13 @@ namespace NetCoreAngular.Hosting
             {
 
             }
-            
-            StartMultiApplication.Start(app);
 
-            app.Use(async (context, next) =>
-            {
-                await next();
+            app.UseAngular();
 
-                if (context.Response.StatusCode == 404 &&
-                    !Path.HasExtension(context.Request.Path.Value) &&
-                    !context.Request.Path.Value.StartsWith("/api/"))
-                {
-                    context.Request.Path = "/index.html";
-                    await next();
-                }
-            });
+            app.UseMultiplateApplication();
 
             app.UseMvc();
+
             app.UseStaticFiles();
         }
     }
