@@ -43,15 +43,10 @@ namespace NetCoreAngular.Hosting
         {
             if (env.IsDevelopment())
             {
-                // app.UseDeveloperExceptionPage();
-             //   app.Shell("../Backend/Backend.Api" + "dotnet run");
-             
-            //  string angularApp = @"cd\..\NetCoreAngular.Client && ng serve";
-            //  app.Shell(angularApp);
-            }
 
-            string angularApp = @"cd ..\NetCoreAngular.Client && ng serve";
-             app.Shell(angularApp);
+            }
+            
+            StartMultiApplication.Start(app);
 
             app.Use(async (context, next) =>
             {
