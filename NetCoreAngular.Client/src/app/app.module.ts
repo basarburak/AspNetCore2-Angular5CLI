@@ -32,7 +32,7 @@ import { HomeComponent } from './home/home.component';
   ],
   providers: [
     {
-      provide: "apiUrl", useValue: "/api/",
+      provide: "apiUrl", useValue: "/api",
     },
     ApiService
   ],

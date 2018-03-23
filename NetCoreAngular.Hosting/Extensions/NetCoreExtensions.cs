@@ -1,5 +1,7 @@
+using System;
 using System.IO;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
 
 namespace NetCoreAngular.Hosting.Extensions
 {
@@ -20,7 +22,7 @@ namespace NetCoreAngular.Hosting.Extensions
                });
         }
 
-        public static void UseMultiplateApplication(this IApplicationBuilder app)
+        public static void UseMultiplateApplication(this IApplicationBuilder app, IConfiguration configuration)
         {
             string angularApp = @"cd ..\NetCoreAngular.Client && npm start";
             string mainApi = @"cd ..\Backend\Backend.Api && dotnet run";
@@ -30,7 +32,7 @@ namespace NetCoreAngular.Hosting.Extensions
             StartBrowser(app);
         }
 
-        public static void StartBrowser(IApplicationBuilder app)
+        private static void StartBrowser(IApplicationBuilder app)
         {
             app.Shell("start chrome http://localhost:5000/");
             app.Shell("start chrome http://localhost:5050/");
