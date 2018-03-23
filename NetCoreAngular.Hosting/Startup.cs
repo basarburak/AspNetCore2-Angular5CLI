@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using NetCoreAngular.Hosting.Extensions;
 using NetCoreStack.Proxy;
 
 namespace NetCoreAngular.Hosting
@@ -42,8 +43,15 @@ namespace NetCoreAngular.Hosting
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                // app.UseDeveloperExceptionPage();
+             //   app.Shell("../Backend/Backend.Api" + "dotnet run");
+             
+            //  string angularApp = @"cd\..\NetCoreAngular.Client && ng serve";
+            //  app.Shell(angularApp);
             }
+
+            string angularApp = @"cd ..\NetCoreAngular.Client && ng serve";
+             app.Shell(angularApp);
 
             app.Use(async (context, next) =>
             {

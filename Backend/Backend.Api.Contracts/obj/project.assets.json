@@ -219,11 +219,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj",
       "projectName": "Backend.Api.Contracts",
-      "projectPath": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj",
+      "projectPath": "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj",
       "packagesPath": "C:\\Users\\bba\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\obj\\",
+      "outputPath": "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -242,8 +242,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
-              "projectPath": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Domain\\Backend.Domain.csproj"
+            "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+              "projectPath": "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Domain\\Backend.Domain.csproj"
             }
           }
         }

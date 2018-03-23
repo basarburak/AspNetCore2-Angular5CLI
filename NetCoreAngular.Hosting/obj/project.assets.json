@@ -12402,11 +12402,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\NetCoreAngular.Hosting\\NetCoreAngular.Hosting.csproj",
+      "projectUniqueName": "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\NetCoreAngular.Hosting\\NetCoreAngular.Hosting.csproj",
       "projectName": "NetCoreAngular.Hosting",
-      "projectPath": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\NetCoreAngular.Hosting\\NetCoreAngular.Hosting.csproj",
+      "projectPath": "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\NetCoreAngular.Hosting\\NetCoreAngular.Hosting.csproj",
       "packagesPath": "C:\\Users\\bba\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\NetCoreAngular.Hosting\\obj\\",
+      "outputPath": "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\NetCoreAngular.Hosting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12425,8 +12425,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj": {
-              "projectPath": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj"
+            "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj": {
+              "projectPath": "C:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj"
             }
           }
         }
