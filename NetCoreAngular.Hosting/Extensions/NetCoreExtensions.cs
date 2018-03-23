@@ -69,7 +69,7 @@ namespace NetCoreAngular.Hosting.Extensions
             {
                 app.Shell(pathFull + "dotnet run");
             }
-            else
+            else if (commandLine == CommandLine.NpmStart)
             {
                 app.Shell(pathFull + "npm start");
             }

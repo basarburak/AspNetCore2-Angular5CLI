@@ -28,7 +28,12 @@ namespace NetCoreAngular.Hosting.Extensions
                 }
                 else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
                 {
-                    //
+                    process = new Process
+                    {
+                        StartInfo = new ProcessStartInfo("bash", "-c " + cmd) { UseShellExecute = false }
+                    };
+                    
+                    //Process.Start("dotnet", "a.dll start");
                 }
 
                 process.Start();
