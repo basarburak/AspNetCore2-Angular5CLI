@@ -44,7 +44,7 @@ namespace NetCoreAngular.Hosting
             {
 
             }
-
+            
             app.UseAngular();
 
             app.UseMultiplateApplication();

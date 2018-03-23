@@ -26,6 +26,15 @@ namespace NetCoreAngular.Hosting.Extensions
             string mainApi = @"cd ..\Backend\Backend.Api && dotnet run";
             app.Shell(mainApi);
             app.Shell(angularApp);
+            //Browserda önizlemek için bunu kullanıcaz.
+            StartBrowser(app);
+        }
+
+        public static void StartBrowser(IApplicationBuilder app)
+        {
+            app.Shell("start chrome http://localhost:5000/");
+            app.Shell("start chrome http://localhost:5050/");
+            app.Shell("start chrome http://localhost:4200/");
         }
     }
 }
