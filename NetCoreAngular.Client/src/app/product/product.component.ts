@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../../services/services';
+import { Product } from '../../models/models';
 
 @Component({
   selector: 'app-product',
@@ -9,8 +10,10 @@ import { ProductService } from '../../services/services';
 })
 export class ProductComponent {
 
-  constructor(productService: ProductService) {
+  product: Product[];
 
+  constructor(productService: ProductService) {
+    productService.getProduct().subscribe(data => this.product = data);
   }
 
 }

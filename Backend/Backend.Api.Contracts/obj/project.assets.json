@@ -49,7 +49,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "fbHvoeiJg3hjq7N/+8USq22AoZAPvHjqzQlwQOXGEFZL8+4BN1LIBftHzR8dnV2r0JVyDsFL2vqGBSg3AHYY1g==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -213,35 +213,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/burakbasar/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\bba\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api.Contracts/Backend.Api.Contracts.csproj",
+      "projectUniqueName": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj",
       "projectName": "Backend.Api.Contracts",
-      "projectPath": "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api.Contracts/Backend.Api.Contracts.csproj",
-      "packagesPath": "/Users/burakbasar/.nuget/packages/",
-      "outputPath": "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api.Contracts/obj/",
+      "projectPath": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj",
+      "packagesPath": "C:\\Users\\bba\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/burakbasar/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\bba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/Backend.Domain.csproj": {
-              "projectPath": "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/Backend.Domain.csproj"
+            "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+              "projectPath": "c:\\Users\\bba\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Domain\\Backend.Domain.csproj"
             }
           }
         }
