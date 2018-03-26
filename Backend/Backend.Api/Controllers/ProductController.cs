@@ -6,8 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.Api.Controllers
 {
-    [Route("api/[controller]")]
-    public class ProductController : Controller, IProductApi
+    public class ProductController : BaseController, IProductApi
     {
         [HttpGet(nameof(GetAllProduct))]
         public async Task<List<Product>> GetAllProduct()

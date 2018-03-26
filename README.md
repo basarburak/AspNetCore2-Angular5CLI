@@ -23,3 +23,4 @@ Bu komutu çalıştırdığınızda Api katmanının altında wwwroot dizinine a
 Bundan sonraki adımda sadece .Net core projenizi sunucunuza pubish edebilirsiniz.
 
 Mac İşletim Sisteminde Chrome Start Etmek İçin  =>  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app="http://www.google.de"
+
