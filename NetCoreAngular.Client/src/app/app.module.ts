@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
-
-import { AppComponent, ProductComponent, NavbarComponent } from '../app/components';
-import { ApiService } from '../services/api/api-service';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { HomeComponent } from './home/home.component';
-
+//Genel Componentler
+import { AppComponent, ProductComponent, NavbarComponent, NotFoundComponent, HomeComponent } from '../app/components';
+//Account Componentler
+import { LoginComponent, RegisterComponent } from '../app/account/account-component';
+//Genel Servisler
+import { ApiService } from '../services/services';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,9 @@ import { HomeComponent } from './home/home.component';
     ProductComponent,
     NavbarComponent,
     NotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,7 @@ import { HomeComponent } from './home/home.component';
   ],
   providers: [
     {
-      provide: "apiUrl", useValue: "/api",
+      provide: "apiUrl", useValue: "/api" //api servis içerisindeki tüm http istekleri bu adrese yönlendirilir.
     },
     ApiService
   ],
