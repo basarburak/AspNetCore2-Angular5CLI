@@ -68,6 +68,8 @@ angular-cli.json dosyasını açalım ve Angular Prod ortamına çıktığında 
 ```
 <br>
 
+NetCoreAngular.Hosting dizinine gidin ve <b> dotnet run </b> komutunu çalıştırın.
+
 <b> Sonuç : </b> <br>
 
 1.) Angular CLI ve Api uygulamalarınızı isterseniz farklı sunucularda yayınlayabilirsiniz. <br>
