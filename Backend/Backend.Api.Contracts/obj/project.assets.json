@@ -20,7 +20,7 @@
           "lib/netstandard2.0/NetCoreStack.Contracts.dll": {}
         }
       },
-      "NETStandard.Library/2.0.1": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -49,7 +49,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "fbHvoeiJg3hjq7N/+8USq22AoZAPvHjqzQlwQOXGEFZL8+4BN1LIBftHzR8dnV2r0JVyDsFL2vqGBSg3AHYY1g==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -71,14 +71,13 @@
         "netcorestack.contracts.nuspec"
       ]
     },
-    "NETStandard.Library/2.0.1": {
-      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.1",
+      "path": "netstandard.library/2.0.3",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -195,7 +194,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.1.nupkg.sha512",
+        "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
@@ -208,40 +207,42 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Backend.Domain >= 1.0.0",
-      "NETStandard.Library >= 2.0.1",
+      "NETStandard.Library >= 2.0.3",
       "NetCoreStack.Contracts >= 2.0.7"
     ]
   },
   "packageFolders": {
-    "/Users/burakbasar/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\HKD44\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api.Contracts/Backend.Api.Contracts.csproj",
+      "projectUniqueName": "c:\\Users\\HKD44\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj",
       "projectName": "Backend.Api.Contracts",
-      "projectPath": "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api.Contracts/Backend.Api.Contracts.csproj",
-      "packagesPath": "/Users/burakbasar/.nuget/packages/",
-      "outputPath": "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Api.Contracts/obj/",
+      "projectPath": "c:\\Users\\HKD44\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\Backend.Api.Contracts.csproj",
+      "packagesPath": "C:\\Users\\HKD44\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\HKD44\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Api.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/burakbasar/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\HKD44\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/Backend.Domain.csproj": {
-              "projectPath": "/Users/burakbasar/Documents/GitHub/AspNetCore2-Angular5CLI/Backend/Backend.Domain/Backend.Domain.csproj"
+            "c:\\Users\\HKD44\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Domain\\Backend.Domain.csproj": {
+              "projectPath": "c:\\Users\\HKD44\\Documents\\GitHub\\AspNetCore2-Angular5CLI\\Backend\\Backend.Domain\\Backend.Domain.csproj"
             }
           }
         }
@@ -258,7 +259,7 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "[2.0.3, )",
             "autoReferenced": true
           },
           "NetCoreStack.Contracts": {

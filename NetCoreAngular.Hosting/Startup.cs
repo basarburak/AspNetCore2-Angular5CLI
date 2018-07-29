@@ -35,12 +35,10 @@ namespace NetCoreAngular.Hosting
         {
             if (env.IsDevelopment())
             {
-
+             //app.UseMultiplateApplication(Configuration);
             }
 
             app.UseAngular();
-
-            app.UseMultiplateApplication(Configuration);
 
             app.UseMvc();
 
