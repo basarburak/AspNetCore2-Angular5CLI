@@ -29,7 +29,7 @@ Angular CLI uygulaması çalıştığında gelen /api istekleri proxy sunucusuna
 
 Hepsi bu kadar değil şimdi package.json dosyasına içerisine gidip aşağıdaki alanı değiştirmemiz gerekiyor.<br>
 Bunu yapmamızın sebebi <b> npm start </b> komutu girildiğinde proxy devreye girecek ve Angular uygulamasından gelen api istekleri localhost:5000 
-portuna yani bizim proxy sunucuya gidecek.
+portuna gidecek.
 
 ```ruby
 "start": "ng serve --proxy-config proxy.conf.json"
